@@ -1,0 +1,11 @@
+"%dev":
+  quarkus:
+    flyway:
+      migrate-at-start: true
+      clean-on-validation-error: true
+    datasource:
+      db-kind: mysql
+      username: root
+      password:
+      jdbc:
+        url: jdbc:mysql://localhost:3306/testing11
